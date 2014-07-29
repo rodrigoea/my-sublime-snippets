@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+<?php
+ /*--------------------------------------------
+ 	MENU
+ --------------------------------------------*/
+
+ \$args = array(
+ 	'theme_location' => 'header_menu',
+ 	'menu' => '',
+ 	'container' => '',
+ 	'container_class' => '',
+ 	'container_id' => '',
+ 	'menu_class' => 'nav navbar-nav',
+ 	'menu_id' => 'menu-menu-principal',
+ 	'echo' => true,
+ 	'fallback_cb' => 'wp_page_menu',
+ 	'before' => '',
+ 	'after' => '',
+ 	'link_before' => '',
+ 	'link_after' => '',
+ 	'items_wrap' => '<ul id = "%1\$s" class = "%2\$s">%3\$s</ul>',
+ 	'depth' => 0,
+ 	'walker' => ''
+ );
+
+ wp_nav_menu( \$args );
+ ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nav_menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Wordpress Menu;</description>
+</snippet>

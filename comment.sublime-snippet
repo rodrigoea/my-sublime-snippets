@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+// ===================================================
+// ${1:comentário}
+// ===================================================
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>comment</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Create a block comment</description>
+</snippet>

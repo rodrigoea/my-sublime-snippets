@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<!-- post -->
+<?php endwhile; ?>
+<!-- post navigation -->
+<?php else: ?>
+<!-- no posts found -->
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>theloop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Wordpress Loop</description>
+</snippet>
