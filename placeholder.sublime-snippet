@@ -5,20 +5,20 @@
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: red;  
+   color: red;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: red;  
+   color: red;
 }
 
-:-ms-input-placeholder {  
-   color: red;  
+:-ms-input-placeholder {
+   color: red;
 }
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>placeholder</tabTrigger>
+	<tabTrigger>css-placeholder</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.less, source.css</scope>
+	<scope>source.less, source.css, source.sass</scope>
 </snippet>

@@ -6,7 +6,7 @@
 	background-size: cover;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cover</tabTrigger>
+	<tabTrigger>css-cover</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.less, source.css</scope> -->
+	<scope>source.less, source.css, source.sass</scope>
 </snippet>
