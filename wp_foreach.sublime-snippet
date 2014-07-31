@@ -10,11 +10,16 @@
 
 if( \$posts_data ):
 	foreach( \$posts_data as \$post_data ):
-		\$post_id = \$post_data->ID;
-		\$post_title = \$post_data->post_title;
-		\$post_permalink = get_the_permalink( \$post_id );
-		\$post_content = \$post_data->post_content;
-		?>
+	\$post_id = \$post_data->ID;
+	\$post_title = \$post_data->post_title;
+	\$post_permalink = get_the_permalink( \$post_id );
+	\$post_content = \$post_data->post_content;
+?>
+	<!-- post -->
+	<?php endforeach; ?>
+	<?php else: ?>
+	<!-- no posts found -->
+<?php endif; ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wp_foreach</tabTrigger>
