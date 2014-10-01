@@ -9,7 +9,7 @@
 \$posts = get_posts( \$args );
 
 if( \$posts ):
-	foreach( \$posts as \$post ):
+	foreach( \$posts as \$post ): setup_postdata( \$post );
 	\$post_id = \$post->ID;
 ?>
 	<!-- post -->
