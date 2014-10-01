@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+
+\$${1}_id = get_post_meta( \$post_id, 'qd_\${1}_id', true );
+\$${1}_data = wp_get_attachment_image_src( \$${1}_id, 'full' );
+\$${1}_url = \$${1}_data[0];
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>get_img</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Wordpress bloginfo();</description>
+</snippet>
